@@ -36,9 +36,9 @@ Requirements to run the environment:
 ### Code organization
 
 The code to train & evaluate the agent is divided into 3 main scripts:
--**model.py**: Defines the QNetwork to use, with desired # of inputs, outputs & neurons per layer
--**dqn_agent.py**: Defines the class *ReplayBuffer* to store the experiences & sample them for training. Also defines the class *Agent*, in charge of simulating & training the response of the environment through the QNetworks. Parameters like *BUFFER_SIZE*, *BATCH_SIZE*, *GAMMA*, *TAU*, *LR* or *UPDATE_EVERY* should be changed here.
--**Banana_Collector_DQN_NO_Pixels_TRAIN.py**: Defines dqn function to train the Agent to navigate through the environment. Parameters like *n_episodes*, *eps_start*, *eps_end*, *eps_decay* should be changed here.
+- **model.py**: Defines the QNetwork to use, with desired # of inputs, outputs & neurons per layer
+- **dqn_agent.py**: Defines the class *ReplayBuffer* to store the experiences & sample them for training. Also defines the class *Agent*, in charge of simulating & training the response of the environment through the QNetworks. Parameters like *BUFFER_SIZE*, *BATCH_SIZE*, *GAMMA*, *TAU*, *LR* or *UPDATE_EVERY* should be changed here.
+- **Banana_Collector_DQN_NO_Pixels_TRAIN.py**: Defines dqn function to train the Agent to navigate through the environment. Parameters like *n_episodes*, *eps_start*, *eps_end*, *eps_decay* should be changed here.
 
 
 ### Instructions
