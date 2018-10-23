@@ -43,3 +43,7 @@ The code to train & evaluate the agent is divided into 3 main scripts:
 
 ### Instructions
 
+- To train an agent to navigate the environment: **`python Banana_Collector_DQN_NO_Pixels_TRAIN.py`** will load the necessary packages & train the agent, finally the model weights will be saved in **`final_model_weights.pth`**
+- To see the trained agent in action: **`python Banana_Collector_DQN_NO_Pixels_EVALUATE.py`** will load the necessary packages, the final weights of the latest trained model **`final_model_weights.pth`** & launch 100 consecutive episodes in the banana-filled world.
+ If a more interactive version of both scripts is needed, the Jupyter notebooks are also available in the repo, with the same functionality as their **.py** equivalent.
+
