@@ -66,7 +66,7 @@ Then, place the file in the `p3_collab-compet/` folder in the DRLND GitHub repos
 
 The code to train & evaluate the agent is heavily inspired by bipedal example in the udacity repository [here](https://github.com/udacity/deep-reinforcement-learning/tree/master/ddpg-bipedal) & is divided into 3 main scripts:
 - **model.py**: Defines the Networks to use for the Actor & the Critic, with desired # of inputs, outputs & neurons per layer
-The main improvements to make the environment solvable with respect to the pendulum implementation are: added one more hidden layer in the Actor, adding Batch Normalization for the layers in the Actor & the Critic, Actor & Crtici having the same architecture
+The main improvements to make the environment solvable with respect to the pendulum implementation are: added one more hidden layer in the Actor and Actor & Critic having the same architecture
 - **ddpg_agent.py**: Defines the class *ReplayBuffer* to store the experiences & sample them for training. Also defines the class *Agent*, in charge of simulating & training the response of the environment through the QNetworks. Parameters like *BUFFER_SIZE*, *BATCH_SIZE*, *GAMMA*, *TAU*, *LR* or *UPDATE_EVERY* should be changed here.
 - **Tennis_NO_Pixels.ipynb**: Detailed explanation of the training process, including curve of cumulative rewards - should be used as report for the project
 
